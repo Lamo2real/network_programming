@@ -33,7 +33,7 @@ class Card:
         suit_str = self._suit.name.capitalize()  # Capitalizes the suit name
         return f"{value_names} of {suit_str}"  # Returns a formatted string representing the card
 
-# Class representing a deck of cards
+
 class CardDeck:
     def __init__(self):
         self.cards = []  # Initializes an empty list for the cards
